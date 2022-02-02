@@ -1,3 +1,56 @@
+:root {
+  --theme-accent: #ffc700;
+  --theme-main: #fefefe;
+}
+
+html,
 body {
-  background-color: aqua;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0, auto;
+}
+
+.about {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/space.jpg);
+  background-size: cover;
+}
+
+.about-name {
+  color: var(--theme-accent);
+  font-style: italic;
+  font-weight: bold;
+  font-size: 46px;
+  line-height: 60px;
+  margin-bottom: 24px;
+}
+
+.about-profession {
+  color: var(--theme-main);
+  height: 24px;
+  left: 95px;
+  top: 144px;
+  margin-bottom: 16px;
+}
+
+.about-position {
+  color: var(--theme-accent);
+  height: 24px;
+  left: 95px;
+  top: 144px;
+  margin-bottom: 8px;
+  list-style: disc;
+}
+
+.about-position-text {
+  color: var(--theme-main);
 }
